@@ -1,59 +1,70 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Гайд: Як почати програмування</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-    header { background: #333; color: #fff; padding: 20px 0; text-align: center; }
-    main { padding: 20px; max-width: 800px; margin: auto; background: #fff; }
-    h1, h2 { color: #333; }
-    ul { padding-left: 20px; }
-    footer { text-align: center; padding: 10px; background: #ddd; margin-top: 40px; }
-    div {color:yellow ;}
-  </style>
+  <title>Гайд для програмування</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1><div>Гайд: Як почати програмування</div></h1> 
-  </header>
-  <main>
-    <section>
-      <h2>1. Визнач ціль</h2>
-      <p>Виріши, чому ти хочеш навчитися програмуванню: створення сайтів, ігор, мобільних додатків чи автоматизація процесів.</p>
+  <nav>
+    <a href="#intro">Вступ</a>
+    <a href="#syntax">Синтаксис</a>
+    <a href="#examples">Приклади</a>
+  </nav>
+
+  <div class="container">
+    <h1>Гайд для програмування</h1>
+
+    <section id="intro">
+      <h2>Вступ</h2>
+      <p>Цей гайд допоможе тобі розпочати програмування. Ми розглянемо основні принципи та синтаксис популярних мов програмування.</p>
     </section>
 
-    <section>
-      <h2>2. Обери мову програмування </h2>
-      <ul>
-        <li><strong>HTML/CSS + JavaScript</strong> — для створення сайтів</li>
-        <li><strong>Python</strong> — проста і популярна для початківців</li>
-        <li><strong>Java</strong> або <strong>Kotlin</strong> — для Android-додатків</li>
-      </ul>
+    <section id="syntax">
+      <h2>Базовий синтаксис</h2>
+      <p>Ось приклад функції на JavaScript:</p>
+      <pre><code>
+function привітання(ім'я) {
+  console.log("Привіт, " + ім'я + "!");
+}
+привітання("Світ");
+      </code></pre>
+
+      <p>А ось аналогічна функція на Python:</p>
+      <pre><code>
+def привітання(ім'я):
+    print("Привіт,", ім'я)
+
+привітання("Світ")
+      </code></pre>
     </section>
 
-    <section>
-      <h2>3. Вчися з правильних джерел</h2>
-      <ul>
-        <li>Онлайн-платформи: Coursera, freeCodeCamp, Udemy</li>
-        <li>Відеоуроки на YouTube</li>
-        <li>Інтерактивні тренажери: Codecademy, SoloLearn</li>
-      </ul>
-    </section>
+    <section id="examples">
+      <h2>Приклади</h2>
+      <p>Приклад програми на Python, яка перевіряє, чи є число парним:</p>
+      <pre><code>
+число = int(input("Введи число: "))
 
-    <section>
-      <h2>4. Практикуйся</h2>
-      <p>Пиши власні проєкти, вирішуй задачі на сайтах типу Codewars чи LeetCode.</p>
+if число % 2 == 0:
+    print("Це парне число.")
+else:
+    print("Це непарне число.")
+      </code></pre>
+      <img src="cats.jpg">
+    </img>
+    <p>Це ви з друзями після того як зрозуміли приклади Python</p>
+      <a
+      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      target="_blank">
+<button>Дізнатись більше</button>
+      </a>
     </section>
-
-    <section>
-      <h2>5. Спілкуйся з іншими</h2>
-      <p>Приєднуйся до спільнот: форуми, Discord-канали, групи в Telegram або Facebook.</p>
-    </section>
-  </main>
-  <footer>
-    <p>Створено з любов'ю до програмування</p>
-  </footer>
+  </div>
 </body>
 </html>
+
+<head
+  <link rel="stylesheet"
+href="style.css"
+</head>  
